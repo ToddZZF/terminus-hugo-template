@@ -3,16 +3,16 @@
 
 name = "Terminus"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/ToddZZF/terminus-hugo-template/blob/main/themes/terminus/LICENSE"
+description = "A theme based on jekyll-now, optimized for Chinese."
+homepage = ""
 tags = []
 features = []
 min_version = "0.96.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "ToddZZF"
+  homepage = "https://toddzzf.github.io"
 
 # If porting an existing theme
 [original]
