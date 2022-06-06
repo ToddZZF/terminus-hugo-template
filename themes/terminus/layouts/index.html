@@ -1,0 +1,115 @@
+{{ define "main" }}
+{{ if eq (len .Site.Pages) 0 }}
+<h2>No post found</h2>
+{{ end }}
+
+<div class="posts">
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) -}}
+    {{ if eq .Paginator.PageNumber 1 }}
+
+    <!-- Html Elements for Search -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="search..."
+            style="margin: 0px 0px 20px 0px; height: 40px; width: 100%;">
+        <ul id="results-container"></ul>
+    </div>
+
+    <!-- Script pointing to search-script.js -->
+    <script src="{{ `js/search-script.js` | relURL }}" type="text/javascript"></script>
+
+    <!-- Configuration -->
+    <script>
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ `search.json` | relURL }}'
+        })
+    </script>
+    {{ end}}
+
+    
+    {{ range $post := $paginator.Pages }}
+    {{ if eq $post.Params.is_sticky true }}
+    <article class="post">
+        <h2>
+            <a href="{{ $post.RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        <div clsss="meta">
+            <span class="date">
+                {{ $post.Date.Format "2006-1-02" }}
+            </span>
+
+            <ul class="tag">
+                {{ range (.GetTerms "tags") }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .LinkTitle }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <div class="entry">
+            {{ $post.Summary }}
+        </div>
+
+        <a href="{{ $post.RelPermalink }}" class="read-more">Read More</a>
+    </article>
+    {{ end }}
+    {{ end }}
+
+
+    {{ range $post := $paginator.Pages }}
+    {{ if not   $post.Params.is_sticky }}
+    <article class="post">
+        <h2>
+            <a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>
+        </h2>
+
+        <div clsss="meta">
+            <span class="date">
+                {{ $post.Date.Format "2006-1-02" }}
+            </span>
+
+            <ul class="tag">
+                {{ range (.GetTerms "tags") }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .LinkTitle }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <div class="entry">
+            {{ $post.Summary }}
+        </div>
+
+        <a href="{{ $post.RelPermalink }}" class="read-more">Read More</a>
+    </article>
+    {{ end}}
+    {{ end }}
+</div>
+
+<script> pangu.spacingPage(); </script>
+
+<div class="pagination">
+    {{ with .Paginator.Prev }}
+    <span class="prev">
+        <a href="{{ .URL }}" class="prev">
+            前一页
+        </a>
+    </span>
+    {{ end }}
+    {{ with .Paginator.Next }}
+    <span class="next">
+        <a href="{{ .URL }}" class="next">
+            后一页
+        </a>
+    </span>
+    {{ end }}
+</div>
+{{ end }}

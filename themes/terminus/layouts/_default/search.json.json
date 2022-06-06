@@ -1,0 +1,27 @@
+[
+    {{- $PageList := .Site.RegularPages -}}
+    {{- $len := sub (len $PageList) 1 -}}
+    {{- range $index, $post := $PageList }}
+    {{ 
+      dict 
+      "title" $post.Title
+      "categories" ($post.GetTerms "categories" | print)
+      "discription" ($post.Summary | truncate 50)
+      "tags" ($post.GetTerms "tags" | print)
+      "url" $post.RelPermalink
+      | jsonify 
+    }}
+    {{- /*
+    {
+        "title": "{{ $post.Title }}",
+        "categories": "{{ $post.GetTerms "categories" }}",
+        "tags": "{{ $post.GetTerms "tags" }}",
+        "url": "{{ $post.RelPermalink }}",
+        "date": "{{ $post.Date }}",
+        "discription": "{{ $post.Summary | truncate 50}}"
+    }
+    */ -}}
+    {{- if ne $index $len -}},
+    {{- end -}}
+  {{- end }}
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sticky on terminus</title>
+    <link>http://localhost:1313/categories/sticky/</link>
+    <description>Recent content in sticky on terminus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/sticky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>置顶示例</title>
+      <link>http://localhost:1313/posts/2018-04-01-how-to-participate-in-terminus/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2018-04-01-how-to-participate-in-terminus/</guid>
+      <description>在需要置顶的帖子元信息部分添加 is_sticky: true
+--- layout: post title: 置顶示例 date: 2018-04-01 categories: sticky tags: 参与 description: 记得添加 is_sticky: true is_sticky: true ---  </description>
+    </item>
+    
+  </channel>
+</rss>

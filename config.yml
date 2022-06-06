@@ -1,0 +1,54 @@
+baseURL: http://localhost:1313/
+languageCode: zh-cn
+title: terminus
+theme: terminus
+
+params:
+  avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+  description: A Hugo Template
+  mainSections: [posts]
+  navigation:
+    - name: 首页
+      url: /
+    - name: 标签
+      url: /tags/
+    - name: 分类
+      url: /categories/
+    - name: 关于
+      url: /about.html
+
+  footer_links:
+    behance: # https://www.behance.net/<username>
+    dribbble:
+    email: toddzzf@outlook.com
+    facebook:
+    flickr:
+    github: ToddZZF/terminus-hugo-template
+    googleplus: # anything in your profile username that comes after plus.google.com/
+    instagram:
+    linkedin:
+    telegram: 
+    pinterest:
+    rss: atom.xml # just type anything here for a working RSS icon
+    stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+    tumblr: # https://<username>.tumblr.com
+    twitter: 
+    youtube: # channel/<your_long_string> or user/<user-name>
+
+  footer_text: Powered by <a href="https://github.com/ToddZZF/terminus-hugo-template">terminus</a>
+
+minify:
+  minifyOutput: false
+
+markup:
+  goldmark:
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: 'github'
+      attribute:
+        block: true
+        title: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
