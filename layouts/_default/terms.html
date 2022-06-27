@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ if eq (len .Pages) 0 }}
+<h2>No post found</h2>
+{{ end }}
+
+<div class="tags">
+    <ul class="label">
+        {{ range .Data.Terms.Alphabetical }}
+        <li>
+            <a href="{{ .Page.Title }}">
+                <span>{{ .Page.Title }}</span>
+                <span class="count">{{ .Count }}</span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ range .Data.Terms.Alphabetical }}
+    <h2 id="{{ .Page.Title }}">
+        {{ .Page.Title }}
+    </h2>
+    <ul class="tag">
+        {{/*  {{ range $key, $value := index $.Site.Taxonomies .Page.Title }}  */}}
+        <li>
+            {{ range .Pages }}
+            <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+                <time>{{ .Date.Format "2006-01-02" }}</time>
+            {{ end }}
+        </li>
+    </ul>
+    {{ end }}
+</div>
+{{ end }}

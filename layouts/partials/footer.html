@@ -1,0 +1,6 @@
+{{ partial "svg-icons.html" . }}
+
+{{ if .Site.Params.footer_text }}
+    {{ $footer_text := .Site.Params.footer_text }}
+    <p>{{ $footer_text | safeHTML }}</p>
+{{ end }}
