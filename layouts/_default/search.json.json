@@ -1,13 +1,21 @@
 [
     {{- $PageList := .Site.RegularPages -}}
     {{- $len := sub (len $PageList) 1 -}}
-    {{- range $index, $post := $PageList }}
+    {{- range $index, $post := $PageList -}}
+    {{- $tags := slice -}}
+    {{- $categories := slice -}}
+    {{- range $post.GetTerms "categories" -}}
+    {{- $categories = $categories | append .Name -}}
+    {{- end -}}
+    {{- range $post.GetTerms "tags" -}}
+    {{- $tags = $tags | append .Name -}}
+    {{- end -}}
     {{ 
       dict 
       "title" $post.Title
-      "categories" ($post.GetTerms "categories" | print)
+      "categories" (delimit $categories " " | print)
       "discription" ($post.Summary | truncate 50)
-      "tags" ($post.GetTerms "tags" | print)
+      "tags" (delimit $tags " " | print)
       "url" $post.RelPermalink
       | jsonify 
     }}
