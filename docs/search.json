@@ -1,6 +1,2 @@
-[
-    {"categories":"Pages(1)","discription":"Markdown的语法介绍，很简单很好用是不是？","tags":"Pages(1)","title":"Markdown的语法介绍","url":"/terminus-hugo-template/posts/2022-06-27-markdown-intoduction/"},
-    {"categories":"Pages(1)","discription":"记得添加 is_sticky","tags":"Pages(1)","title":"置顶示例","url":"/terminus-hugo-template/posts/2022-06-27-sticky-example/"},
-    {"categories":"Pages(0)","discription":"","tags":"Pages(0)","title":"关于","url":"/terminus-hugo-template/about.html"},
-    {"categories":"Pages(0)","discription":"","tags":"Pages(0)","title":"","url":"/terminus-hugo-template/search.json"}
+[{"categories":"Archive","discription":"Markdown的语法介绍，很简单很好用是不是？","tags":"示例","title":"Markdown的语法介绍","url":"/terminus-hugo-template/posts/2022-06-27-markdown-intoduction/"},{"categories":"sticky","discription":"记得添加 is_sticky","tags":"另外一个tag","title":"置顶示例","url":"/terminus-hugo-template/posts/2022-06-27-sticky-example/"},{"categories":"","discription":"","tags":"","title":"关于","url":"/terminus-hugo-template/about.html"},{"categories":"","discription":"","tags":"","title":"","url":"/terminus-hugo-template/search.json"}
 ]
