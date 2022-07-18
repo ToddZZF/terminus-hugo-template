@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archive on terminus</title>
-    <link>http://localhost:1313/categories/archive/</link>
+    <link>https://todd.scuteee.com/terminus-hugo-template/categories/archive/</link>
     <description>Recent content in Archive on terminus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/archive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://todd.scuteee.com/terminus-hugo-template/categories/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown的语法介绍</title>
-      <link>http://localhost:1313/posts/2022-06-27-markdown-intoduction/</link>
+      <link>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-markdown-intoduction/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/2022-06-27-markdown-intoduction/</guid>
+      <guid>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-markdown-intoduction/</guid>
       <description>Markdown的语法介绍，很简单很好用是不是？</description>
     </item>
     

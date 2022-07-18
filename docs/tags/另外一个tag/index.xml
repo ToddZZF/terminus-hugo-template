@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>另外一个tag on terminus</title>
-    <link>http://localhost:1313/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/</link>
+    <link>https://todd.scuteee.com/terminus-hugo-template/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/</link>
     <description>Recent content in 另外一个tag on terminus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://todd.scuteee.com/terminus-hugo-template/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>置顶示例</title>
-      <link>http://localhost:1313/posts/2022-06-27-sticky-example/</link>
+      <link>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-sticky-example/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/2022-06-27-sticky-example/</guid>
+      <guid>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-sticky-example/</guid>
       <description>记得添加 is_sticky</description>
     </item>
     

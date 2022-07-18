@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on terminus</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://todd.scuteee.com/terminus-hugo-template/categories/</link>
     <description>Recent content in Categories on terminus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://todd.scuteee.com/terminus-hugo-template/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archive</title>
-      <link>http://localhost:1313/categories/archive/</link>
+      <link>https://todd.scuteee.com/terminus-hugo-template/categories/archive/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/archive/</guid>
+      <guid>https://todd.scuteee.com/terminus-hugo-template/categories/archive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sticky</title>
-      <link>http://localhost:1313/categories/sticky/</link>
+      <link>https://todd.scuteee.com/terminus-hugo-template/categories/sticky/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/sticky/</guid>
+      <guid>https://todd.scuteee.com/terminus-hugo-template/categories/sticky/</guid>
       <description></description>
     </item>
     

@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/archive/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/categories/archive/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/categories/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-06-27-markdown-intoduction/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-markdown-intoduction/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/sticky/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/categories/sticky/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/tags/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/tags/%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AAtag/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/tags/%E7%A4%BA%E4%BE%8B/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-06-27-sticky-example/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/posts/2022-06-27-sticky-example/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/posts/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about.html</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/about.html</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search.json</loc>
+    <loc>https://todd.scuteee.com/terminus-hugo-template/search.json</loc>
   </url>
 </urlset>

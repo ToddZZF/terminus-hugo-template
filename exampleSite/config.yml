@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL: https://todd.scuteee.com/terminus-hugo-template/
 languageCode: zh-cn
 title: terminus
 theme: terminus
