@@ -10,13 +10,13 @@ params:
   mainSections: [posts]
   navigation:
     - name: 首页
-      url: /
+      url: 
     - name: 标签
-      url: /tags/
+      url: tags/
     - name: 分类
-      url: /categories/
+      url: categories/
     - name: 关于
-      url: /about.html
+      url: about.html
 
   footer_links:
     behance: # https://www.behance.net/<username>
